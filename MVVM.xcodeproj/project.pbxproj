@@ -99,13 +99,15 @@
 		441F5482299F8B45006EC775 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				441F5483299F8B45006EC775 /* AppDelegate.swift */,
-				441F5485299F8B45006EC775 /* SceneDelegate.swift */,
+				442959DC299F8EA7000001A9 /* Views */,
+				442959DB299F8E93000001A9 /* Utils */,
+				442959DA299F8E53000001A9 /* ViewControllers */,
+				442959D9299F8E4B000001A9 /* Models */,
+				442959D8299F8E3D000001A9 /* Services */,
+				442959D5299F8DFC000001A9 /* Resources */,
+				442959D4299F8DCE000001A9 /* Core */,
+				442959D3299F8DB8000001A9 /* Coordinators */,
 				441F5487299F8B45006EC775 /* ViewController.swift */,
-				441F5489299F8B45006EC775 /* Main.storyboard */,
-				441F548C299F8B46006EC775 /* Assets.xcassets */,
-				441F548E299F8B46006EC775 /* LaunchScreen.storyboard */,
-				441F5491299F8B46006EC775 /* Info.plist */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -125,6 +127,84 @@
 				441F54A6299F8B47006EC775 /* MVVMUITestsLaunchTests.swift */,
 			);
 			path = MVVMUITests;
+			sourceTree = "<group>";
+		};
+		442959D3299F8DB8000001A9 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		442959D4299F8DCE000001A9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				441F5485299F8B45006EC775 /* SceneDelegate.swift */,
+				441F5483299F8B45006EC775 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		442959D5299F8DFC000001A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				441F5491299F8B46006EC775 /* Info.plist */,
+				442959D7299F8E1C000001A9 /* Storyboards */,
+				442959D6299F8E14000001A9 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		442959D6299F8E14000001A9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				441F548C299F8B46006EC775 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		442959D7299F8E1C000001A9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				441F548E299F8B46006EC775 /* LaunchScreen.storyboard */,
+				441F5489299F8B45006EC775 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		442959D8299F8E3D000001A9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		442959D9299F8E4B000001A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		442959DA299F8E53000001A9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		442959DB299F8E93000001A9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		442959DC299F8EA7000001A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,7 +521,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U2N97D98Q8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVM/Info.plist;
+				INFOPLIST_FILE = MVVM/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -469,7 +549,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U2N97D98Q8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVM/Info.plist;
+				INFOPLIST_FILE = MVVM/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
