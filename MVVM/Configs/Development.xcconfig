@@ -1,0 +1,13 @@
+//
+//  Development.xcconfig
+//  MVVM
+//
+//  Created by Ильдар Аглиуллов on 20.02.2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//App Setings
+APP_NAME = MVVM
+APP_BUNDLE_ID = IldarAgliullov.MVVM
